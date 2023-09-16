@@ -14,27 +14,27 @@ because they refer to the processed dataset using relative paths
 
 Sections:
 
-* [(1) Exploratory Data Analysis]
-  * [(1.1)]
-  * [(1.2)]
-    * [(1.2.1)]
-    * [(1.2.2)]
-    * [(1.2.3)]
-    * [(1.2.4)]
+* [(1) Exploratory Data Analysis](https://github.com/cross-codes/Postman-ML-Task-2#1-exploratory-data-analysis)
+  * [(1.1)](https://github.com/cross-codes/Postman-ML-Task-2#11-scouting)
+  * [(1.2)](https://github.com/cross-codes/Postman-ML-Task-2#12-data-cleansing-process)
+    * [(1.2.1)](https://github.com/cross-codes/Postman-ML-Task-2#121-removing-null-values-and-duplicates)
+    * [(1.2.2)](https://github.com/cross-codes/Postman-ML-Task-2#122-addressing-outliers)
+    * [(1.2.3)](https://github.com/cross-codes/Postman-ML-Task-2#123-converting-data-types)
+    * [(1.2.4)](https://github.com/cross-codes/Postman-ML-Task-2#124-feature-engineering)
 
-* [(2) Data Plotting]
-  * [(2.1)]
-  * [(2.2)]
-  * [(2.3)]
+* [(2) Data Plotting](https://github.com/cross-codes/Postman-ML-Task-2#2-data-plotting)
+  * [(2.1)](https://github.com/cross-codes/Postman-ML-Task-2#21-histograms)
+  * [(2.2)](https://github.com/cross-codes/Postman-ML-Task-2#22-heatmaps)
+  * [(2.3)](https://github.com/cross-codes/Postman-ML-Task-2#23-bar-graphs)
 
-* [(3) Model Making]
-  * [(3.1)]
-  * [(3.2)]
-  * [(3.3)]
-  * [(3.4)]
-  * [(3.5)]
+* [(3) Model Making](https://github.com/cross-codes/Postman-ML-Task-2#3-model-making)
+  * [(3.1)](https://github.com/cross-codes/Postman-ML-Task-2#31-linear-regression)
+  * [(3.2)](https://github.com/cross-codes/Postman-ML-Task-2#32-support-vector-machine)
+  * [(3.3)](https://github.com/cross-codes/Postman-ML-Task-2#33-random-forest-classifier)
+  * [(3.4)](https://github.com/cross-codes/Postman-ML-Task-2#34-gaussian-naive-bayes-classifier)
+  * [(3.5)](https://github.com/cross-codes/Postman-ML-Task-2#35-gradient-boosting-classifier)
 
-* [Verdict]
+* [Verdict](https://github.com/cross-codes/Postman-ML-Task-2#verdict)
 
 ---
 
@@ -213,7 +213,7 @@ columns_to_be_removed = [
 `gamma_GTP` was intentionally left out because I feel like I'd loose a lot of
 data considering this box plot:
 
-![gamma_GTP](./EDA/img/box_plot_gamma_GTP.png)
+![gamma_GTP](../EDA/img/box_plot_gamma_GTP.png)
 
 Honestly some of the parameters like `SGOT_AST` really seem important, as a
 higher value indicates something related to
@@ -321,14 +321,14 @@ def generate_histplot(column_name):
     return 0
 ```
 
-![Age vs Drinking Status](./DP/img/sb_age.png)
-![Weight vs Drinking status](./DP/img/sb_weight.png)
-![Hemoglobin vs Drinking Status](./DP/img/sb_hemoglobin.png)
-![Serum Creatinine vs Drinking Status](./DP/img/sb_serum_creatinine.png)
-![gamma_GTP vs Drinking Status](./DP/img/sb_gamma_GTP.png)
-![smk status vs Drinking Status](./DP/img/sb_SMK_stat_type_cd.png)
-![alt vs Drinking Status](./DP/img/sb_SGOT_ALT.png)
-![ast vs Drinking Status](./DP/img/sb_SGOT_AST.png)
+![Age vs Drinking Status](../DP/img/sb_age.png)
+![Weight vs Drinking status](../DP/img/sb_weight.png)
+![Hemoglobin vs Drinking Status](../DP/img/sb_hemoglobin.png)
+![Serum Creatinine vs Drinking Status](../DP/img/sb_serum_creatinine.png)
+![gamma_GTP vs Drinking Status](../DP/img/sb_gamma_GTP.png)
+![smk status vs Drinking Status](../DP/img/sb_SMK_stat_type_cd.png)
+![alt vs Drinking Status](../DP/img/sb_SGOT_ALT.png)
+![ast vs Drinking Status](../DP/img/sb_SGOT_AST.png)
 
 Relevant parameters seem to be `SGOT_AST` and `SGOT_ALT` for drinking.
 Further research suggests that the `SGOT_AST`/`SGOT_ALT` ratio is [very
@@ -395,7 +395,7 @@ heatmap.set_aspect("equal")
 plot.savefig("./img/heatmap.png", bbox_inches="tight")
 ```
 
-![Heatmap](./DP/img/heatmap.png)
+![Heatmap](../DP/img/heatmap.png)
 
 From this heatmap, it becomes immediately clear that the
 following parameters have a good correlation
@@ -432,8 +432,8 @@ plot.ylabel("Frequency")
 plot.legend()
 ```
 
-![Histogram1](./DP/img/hemo_bar_graph.png)
-![Histogram2](./DP/img/gamma_bar_graph.png)
+![Histogram1](../DP/img/hemo_bar_graph.png)
+![Histogram2](../DP/img/gamma_bar_graph.png)
 
 All matching with the heatmap, which was by far the most useful
 
