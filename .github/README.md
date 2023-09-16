@@ -15,24 +15,24 @@ because they refer to the processed dataset using relative paths
 Sections:
 
 * [(1) Exploratory Data Analysis](https://github.com/cross-codes/Postman-ML-Task-2#1-exploratory-data-analysis)
-  * [(1.1)](https://github.com/cross-codes/Postman-ML-Task-2#11-scouting)
-  * [(1.2)](https://github.com/cross-codes/Postman-ML-Task-2#12-data-cleansing-process)
-    * [(1.2.1)](https://github.com/cross-codes/Postman-ML-Task-2#121-removing-null-values-and-duplicates)
-    * [(1.2.2)](https://github.com/cross-codes/Postman-ML-Task-2#122-addressing-outliers)
-    * [(1.2.3)](https://github.com/cross-codes/Postman-ML-Task-2#123-converting-data-types)
-    * [(1.2.4)](https://github.com/cross-codes/Postman-ML-Task-2#124-feature-engineering)
+  * [(1.1) Scouting](https://github.com/cross-codes/Postman-ML-Task-2#11-scouting)
+  * [(1.2) Data Cleansing Process](https://github.com/cross-codes/Postman-ML-Task-2#12-data-cleansing-process)
+    * [(1.2.1) Removing Null values and Duplicates](https://github.com/cross-codes/Postman-ML-Task-2#121-removing-null-values-and-duplicates)
+    * [(1.2.2) Addressing Outliers](https://github.com/cross-codes/Postman-ML-Task-2#122-addressing-outliers)
+    * [(1.2.3) Converting data types](https://github.com/cross-codes/Postman-ML-Task-2#123-converting-data-types)
+    * [(1.2.4) Feature Engineering](https://github.com/cross-codes/Postman-ML-Task-2#124-feature-engineering)
 
 * [(2) Data Plotting](https://github.com/cross-codes/Postman-ML-Task-2#2-data-plotting)
-  * [(2.1)](https://github.com/cross-codes/Postman-ML-Task-2#21-histograms)
-  * [(2.2)](https://github.com/cross-codes/Postman-ML-Task-2#22-heatmaps)
-  * [(2.3)](https://github.com/cross-codes/Postman-ML-Task-2#23-bar-graphs)
+  * [(2.1) Histograms](https://github.com/cross-codes/Postman-ML-Task-2#21-histograms)
+  * [(2.2) Heatmaps](https://github.com/cross-codes/Postman-ML-Task-2#22-heatmaps)
+  * [(2.3) Bar Graphs](https://github.com/cross-codes/Postman-ML-Task-2#23-bar-graphs)
 
 * [(3) Model Making](https://github.com/cross-codes/Postman-ML-Task-2#3-model-making)
-  * [(3.1)](https://github.com/cross-codes/Postman-ML-Task-2#31-linear-regression)
-  * [(3.2)](https://github.com/cross-codes/Postman-ML-Task-2#32-support-vector-machine)
-  * [(3.3)](https://github.com/cross-codes/Postman-ML-Task-2#33-random-forest-classifier)
-  * [(3.4)](https://github.com/cross-codes/Postman-ML-Task-2#34-gaussian-naive-bayes-classifier)
-  * [(3.5)](https://github.com/cross-codes/Postman-ML-Task-2#35-gradient-boosting-classifier)
+  * [(3.1) Linear Regression](https://github.com/cross-codes/Postman-ML-Task-2#31-linear-regression)
+  * [(3.2) Support Vector Machine](https://github.com/cross-codes/Postman-ML-Task-2#32-support-vector-machine)
+  * [(3.3) Random Forest Classifier](https://github.com/cross-codes/Postman-ML-Task-2#33-random-forest-classifier)
+  * [(3.4) Gaussian Naive Bayes Classifier](https://github.com/cross-codes/Postman-ML-Task-2#34-gaussian-naive-bayes-classifier)
+  * [(3.5) Gradient Boosting Classifier](https://github.com/cross-codes/Postman-ML-Task-2#35-gradient-boosting-classifier)
 
 * [Verdict](https://github.com/cross-codes/Postman-ML-Task-2#verdict)
 
@@ -432,8 +432,8 @@ plot.ylabel("Frequency")
 plot.legend()
 ```
 
-![Histogram1](../DP/img/hemo_bar_graph.png)
-![Histogram2](../DP/img/gamma_bar_graph.png)
+![BarGraph1](../DP/img/hemo_bar_graph.png)
+![BarGraph2](../DP/img/gamma_bar_graph.png)
 
 All matching with the heatmap, which was by far the most useful
 
